@@ -1,0 +1,13 @@
+[package]
+name = "tray-on-demand"
+version = "0.1.0"
+authors = ["Jorn van Wier <jornvanwier@gmail.com>"]
+
+[dependencies]
+failure = "0.1.1"
+x11 = "2.17.3"
+zmq = "0.8"
+
+[dependencies.xcb]
+version = "0.8"
+features = ["xlib_xcb", "thread"]
